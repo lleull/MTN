@@ -3,7 +3,7 @@ import React from 'react'
 import PageInfos from '../utils/PageInfos'
 const CustomComponent = () => {
   return (
-    <div className="w-full h-[screen] overflow-scroll flex flex-col items-center gap-20">
+    <div className="w-full flex flex-col items-center gap-20">
       {PageInfos.map((data, i) => {
         return (
           <div

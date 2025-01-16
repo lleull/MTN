@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <div className="w-full  flex flex-col items-center  justify-center bg-bgcustom">
       {/* Custom <Classifiation></Classifiation> */}
-      <div className="flex relative w-full h-[120vh] overflow-hidden">
+      <div className="flex relative w-full h-[140vh] overflow-hidden">
         <Image src={HG} alt="sd" className="w-full absolute top-0 h-[70vh]" />
         <Image src={overLayer} alt="sd" className="w-full absolute top-0 h-[70vh]" />
 
@@ -42,7 +42,7 @@ export default function Home() {
           </div>
 
           <div className="flex flex-row     gap-7">
-            <div  className='w-7 h-32 bg-gray-500'/>
+            <div  className='w-4 h-32 bg-gray-500'/>
             <Image src={Slider} alt="sd" className="w-44 h-full " /> 
 
           </div>

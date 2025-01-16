@@ -43,25 +43,38 @@ h2 {
 }
 .mountain {
   position: absolute;
-  top: 40vh;
+  top: 35vh;
   width: 100%;
-  height: 100vh;
+  height: 150vh;
   object-fit: fill;
-  animation: linear 5s ease-in-out animatemount;
+  animation:  1s ease-in-out animatemount;
 }
 @keyframes animatemount {
   0% {
-    top: 70vh;
-    opacity: 0.5;
+    transform: translateY(30px); /* Starting position */
+    opacity: 0;
   }
-  50%{
-    top: 60vh;
-    opacity: 0.8;
-
-  }
+  
   100% {
-    top: 43vh;
     opacity: 1;
-
+    transform: translateY(0); /* Ending position */
+  }
+}
+.standman {
+  position: absolute;
+  top: 60vh;
+  width: 100%;
+  height: 80vh;
+  animation:  1.5s ease-in-out animatestand;
+}
+@keyframes animatestand {
+  0% {
+    opacity: 0;
+    transform: translateX(30px); /* Starting position */
+  }
+  
+  100% {
+    opacity: 1;
+    transform: translateX(0); /* Ending position */
   }
 }

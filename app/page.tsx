@@ -10,8 +10,8 @@ import Blender from './assets/BG Content.png'
 import img1 from './assets/Vector (1).png'
 import img2 from './assets/Vector.png'
 import Followus from './assets/Follow us.png'
-import arrow from "./assets/arrow.png"
-import Slider from "./assets/Slider.png"
+import arrow from './assets/arrow.png'
+import Slider from './assets/Slider.png'
 export default function Home() {
   return (
     <div className="w-full  flex flex-col items-center  justify-center bg-bgcustom">
@@ -21,7 +21,7 @@ export default function Home() {
         <Image src={overLayer} alt="sd" className="w-full absolute top-0 h-[70vh]" />
 
         <Image src={Mountains} alt="sd" className="mountain" />
-        <Image src={VG} alt="sd" className="w-full h-[80vh] absolute top-[70vh] " />
+        <Image src={VG} alt="sd" className="standman" />
         <Image src={Blender} alt="sd" className="w-full h-[80vh] absolute top-[70vh] " />
 
         <Navbar />
@@ -33,23 +33,26 @@ export default function Home() {
             <Image src={img2} color="white" alt="s" className="w-5 h-5" />
           </div>
 
-          <div className="w-1/2 flex flex-col">
+          <div className="w-1/2 ml-40 flex flex-col">
             <h2 className="flex flex-row items-center gap-2  text-orangeLine">
               <div className="w-[10vh] h-[2px] z-90 bg-orangeLine"></div>A Hiking guide
             </h2>
-            <h1 className='text-[58px]  font-chronic w-full '>Be prepared for the Mountains and beyond!</h1>
-            <h3 className='flex flex-row items-center gap-4 mt-20'>Scroll down <Image src={arrow} alt='sd' width={10} height={10}/> </h3>
+            <h1 className="text-[51px] w-2/3  font-chronic ">
+              Be prepared for the Mountains and beyond!
+            </h1>
+            <h3 className="flex flex-row items-center gap-4 mt-20">
+              Scroll down <Image src={arrow} alt="sd" width={10} height={10} />{' '}
+            </h3>
           </div>
 
           <div className="flex flex-row     gap-7">
-            <div  className='w-4 h-32 bg-gray-500'/>
-            <Image src={Slider} alt="sd" className="w-44 h-full " /> 
-
+            <div className="w-4 h-32 bg-gray-500" />
+            <Image src={Slider} alt="sd" className="w-44 h-full " />
           </div>
         </div>
       </div>
       <CustomComponent />
-       <AboutComponent />
+      <AboutComponent />
     </div>
   )
 }

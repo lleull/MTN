@@ -1,6 +1,5 @@
 import React from 'react'
-import usericon from './../assets/Account.png'
-import Image from 'next/image'
+
 const Navbar = () => {
   return (
     <div className="flex flex-row absolute top-0 w-full items-center justify-between pl-24 pr-24 mt-4">

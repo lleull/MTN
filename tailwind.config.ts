@@ -11,7 +11,7 @@ export default {
       colors: {
         background: 'var(--background)',
         foreground: 'var(--foreground)',
-        bgcustom: '#354147',
+        bgcustom: '#0B1D26',
         orangeLine: '#FBD784',
       },
       fontFamily: {

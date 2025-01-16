@@ -18,7 +18,7 @@ const CustomComponent = () => {
               </h2>
               <div className="h-full inset-0 bg-opacity-50 z-2- gap-8 flex ml-28   flex-col mb-24 mt-32 w-[70%]  ">
                 <h2 className="flex flex-row items-center gap-2 text-orangeLine">
-                  <div className="w-[10vh] h-[1px] z-9 bg-oratext-orangeLine"></div>
+                  <div className="w-[10vh] h-[1px]  bg-orangeLine"></div>
                   {data.title}
                 </h2>
 
@@ -27,7 +27,7 @@ const CustomComponent = () => {
                   <h1 className="text-[12px]">{data.desc}</h1>
                   <h2 className="flex flex-row items-center gap-2 text-orangeLine">
                     {data.detail && data.detail}
-                    <div className="w-[10vh] h-[2px] bg-oratext-orangeLine" />
+                    <div className="w-[10vh] h-[2px] bg-orangeLine" />
                   </h2>
                 </div>
               </div>

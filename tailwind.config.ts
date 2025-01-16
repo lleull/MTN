@@ -12,6 +12,7 @@ export default {
         background: 'var(--background)',
         foreground: 'var(--foreground)',
         bgcustom: '#354147',
+        orangeLine: '#FBD784',
       },
       fontFamily: {
         chronic: ['Chronicle'], // Add your custom font

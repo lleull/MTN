@@ -17,17 +17,17 @@ const CustomComponent = () => {
                 {data.id}
               </h2>
               <div className="h-full inset-0 bg-opacity-50 z-2- gap-8 flex ml-28   flex-col mb-24 mt-32 w-[70%]  ">
-                <h2 className="flex flex-row items-center gap-2 text-orange-400">
-                  <div className="w-[10vh] h-[1px] z-9 bg-orange-400"></div>
+                <h2 className="flex flex-row items-center gap-2 text-orangeLine">
+                  <div className="w-[10vh] h-[1px] z-9 bg-oratext-orangeLine"></div>
                   {data.title}
                 </h2>
 
                 <div className="w-full h-[80%] flex flex-col gap-2">
                   <h1 className="text-wrap text-5xl leading-snug font-chronic ">{data.subTitle}</h1>
                   <h1 className="text-[12px]">{data.desc}</h1>
-                  <h2 className="flex flex-row items-center gap-2 text-orange-400">
+                  <h2 className="flex flex-row items-center gap-2 text-orangeLine">
                     {data.detail && data.detail}
-                    <div className="w-[10vh] h-[2px] bg-orange-400" />
+                    <div className="w-[10vh] h-[2px] bg-oratext-orangeLine" />
                   </h2>
                 </div>
               </div>
